@@ -1,9 +1,91 @@
-html {
+html, body {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", sans-serif;
   }
   
   *,
   *:before,
   *:after {
     box-sizing: inherit;
+  }
+
+  nav {
+    background-color: #476C9B;
+    color: black;
+    padding: 15px;
+    text-align: left;
+    border-top: 2px solid #476C9B;
+    border-bottom: 4px solid #476C9B;
+  }
+
+  nav a {
+    background-color: #ADD9F4;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  nav a:hover {
+    background-color: #476C9B;
+    color: #ADD9F4;
+  }
+
+  h1 {
+    text-align: center;
+    background-color: #ADD9F4;
+    background-size: cover;
+    margin: 0;
+    padding: 50px;
+    border-bottom: 2px solid #476C9B;
+  }
+
+  .uvodni-text img {
+    float: left;
+    width: 250px;
+    padding: 15px;
+  }
+
+  .uvodni-text {
+    background-color: #ADD9F4;
+    overflow: auto;
+    padding: 15px;
+    text-align: left;
+  }
+
+  .adela {
+    background-color: #476C9B;
+    overflow: auto;
+    padding: 15px;
+    text-align: right;
+  }
+
+  .adela img {
+    width: 250px;
+    float: right;
+    padding: 15px
+  }
+
+  .kocka {
+    overflow: auto;
+    padding: 15px;
+    text-align: left;
+    background-color: #ADD9F4;
+  }
+
+  .kocka img {
+    width: 250px;
+    float: left;
+    padding: 15px;
+  }
+
+  .kocka h2 {
+    text-align: left;
+  }
+
+  footer {
+    background-color: #476C9B;
+    text-align: center;
+    padding: 3px;
   }
