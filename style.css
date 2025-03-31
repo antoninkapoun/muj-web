@@ -14,10 +14,10 @@ html, body {
   nav {
     background-color: #476C9B;
     color: black;
-    padding: 15px;
+    padding: 35px;
     text-align: left;
-    border-top: 2px solid #476C9B;
-    border-bottom: 4px solid #476C9B;
+    /* border-top: 2px solid #476C9B;
+    border-bottom: 4px solid #476C9B; */
   }
 
   nav a {
@@ -28,17 +28,19 @@ html, body {
   }
 
   nav a:hover {
-    background-color: #476C9B;
+    background-color: #add9f498;
     color: #ADD9F4;
   }
 
   h1 {
+    background: url(obrazky/IMG_2622.JPEG) center center no-repeat;
     text-align: center;
-    background-color: #ADD9F4;
     background-size: cover;
     margin: 0;
-    padding: 50px;
+    padding: 150px;
     border-bottom: 2px solid #476C9B;
+    font-size: 100px;
+    color: white;
   }
 
   .uvodni-text img {
@@ -86,6 +88,7 @@ html, body {
 
   footer {
     background-color: #476C9B;
+    color: white;
     text-align: center;
     padding: 3px;
   }
